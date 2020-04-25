@@ -1,0 +1,123 @@
+html {
+  font-size: 10px;
+  background: url(img/bg.jpg);
+  
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.nav ul {
+  list-style-type: none;
+  background: rgba(12,12,12,0.7);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  text-decoration: none;
+  color: aliceblue;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover {
+  background-color: black;
+  transition: 0.4s;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  background-color: violet;
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: white;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+  color: aliceblue;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+  height: 200px;
+  padding: auto;
+  margin: auto;
+}
+
+.footer {
+  text-align: center;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.about {
+  background-color: rgba(12,12,12,0.7);
+  margin: 5px;
+}
+
+.how-to-use {
+  background-color: rgba(12,12,12,0.7);
+  margin: 5px;
+}
+
+.content {
+  padding: 100px;
+  justify-content: center;
+}
+
+.headline {
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  margin: 100px;
+}
+
+
+
